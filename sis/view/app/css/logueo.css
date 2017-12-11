@@ -1,0 +1,149 @@
+body{font-family:'Arial';padding: 0px;margin: 0px;}
+
+.img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h2{padding: 5px;}
+
+.container{
+	width: 100%;
+	height: auto;
+	margin: auto; 
+}
+
+header{
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 2px solid #ccc;  
+}
+
+header img{padding: 12px;}
+
+
+.frm_log{
+  width: 100%;
+  float: left;
+}
+
+.datos_log{
+  width: 100%;
+  float: left;
+}
+
+.txt_log{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+
+.frm_log input{padding: 5px; width: 100%;margin-top: 8px;}
+
+
+.datos_log img{margin: auto;}
+.datos_log .info_log{width: 100%;text-align: center;}
+
+.msg_log{
+  width: 100%;
+  color: white;
+}
+
+.msg_log p{
+  padding: 11px;
+}
+
+.msg_log img{
+  float: left;    
+  padding-top: 3px;
+}
+
+#btn_log{
+  margin-top: 8px;
+  width:100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+header{
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container{
+  	width: 768px;
+  }
+  .frm_log{
+  width: 30%;
+}
+.txt_log{
+  width:40%; 
+}
+.datos_log{
+  width: 30%;
+}
+
+header{
+  text-align: center;
+}
+
+}
+
+@media (min-width: 992px) {
+  .container{
+  	width: 992px;
+  }
+  .frm_log{
+  width: 30%;
+}
+.txt_log{
+  width:40%; 
+}
+.datos_log{
+  width: 30%;
+}
+
+header{
+  text-align: left;
+}
+
+}
+
+@media (min-width: 1200px) {
+.container{
+	width: 1200px;
+  margin-top: 80px;
+}
+.frm_log{
+  width: 30%;
+}
+.txt_log{
+  width:40%; 
+}
+.datos_log{
+  width: 30%;
+  padding-top: 24px;
+}
+
+.txt_log p{
+    padding-left: 66px;
+   /* padding-right: 66px;*/
+}
+
+.txt_log h3{
+  padding-left: 66px;
+  text-align: center;
+}
+
+header{
+  text-align: left;
+}
+/*
+.datos_log img{float: left;}
+.datos_log .info_log{float: left;text-align: left;}*/
+
+}

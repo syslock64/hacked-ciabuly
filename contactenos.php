@@ -1,0 +1,1 @@
+<?php require 'common/config.php'; $pagtitle=$lang['menu'][4]; require $path['controllers'].basename($_SERVER['PHP_SELF']); ?>
